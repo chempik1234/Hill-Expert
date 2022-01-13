@@ -658,7 +658,7 @@ def choose_level():
         clock.tick(FPS)
 
 
-def game(levels, current_level=None):
+def game(levels):
     global your_levels
     start_screen()
     action = menu()  # 0 - достижения 1 - играть
